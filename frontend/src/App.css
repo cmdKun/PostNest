@@ -1,0 +1,31 @@
+html,body{
+    overflow-y: hidden
+}
+.my-scrollable-box::-webkit-scrollbar {
+  width: 8px; /* scrollbar width */
+}
+
+.my-scrollable-box::-webkit-scrollbar-track {
+  background: #1e1e1e00; /* track background */
+  border-radius: 10px;
+}
+
+.my-scrollable-box::-webkit-scrollbar-thumb {
+  background-color: #f27603; /* thumb color */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* thumb border */
+}
+body::-webkit-scrollbar {
+  width: 8px; /* scrollbar width */
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e1e00; /* track background */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f27603; /* thumb color */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* thumb border */
+}
